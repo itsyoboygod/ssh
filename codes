@@ -1,0 +1,8 @@
+#check own open ports
+sudo nmap localhost
+
+# Start your server
+sudo systemctl start ssh
+
+#
+ifconfig | grep 172.20.10.76(inet)
